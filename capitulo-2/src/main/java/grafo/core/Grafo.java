@@ -18,7 +18,7 @@ public class Grafo {
 
     public Grafo(int qtdVertices) {
         if (qtdVertices <= 0) {
-            throw new IllegalArgumentException("A quantidade máxima de vértices deve ser maior ou igual à 1");
+            throw new IllegalArgumentException("A quantidade mÃ¡xima de vÃ©rtices deve ser maior ou igual a 1");
         }
         qtdMaximaVertices = qtdVertices;
         isQtdMaximaDefinida = true;
@@ -31,7 +31,7 @@ public class Grafo {
             this.rotulosEmIndices.put(rotulo, qtdAtualVertices);
             qtdAtualVertices++;
         } else {
-            throw new Exception("A quantidade de vértices permitida (" + qtdMaximaVertices + ") foi excedida.");
+            throw new Exception("A quantidade de vÃ©rtices permitida (" + qtdMaximaVertices + ") foi excedida.");
         }
     }
 
