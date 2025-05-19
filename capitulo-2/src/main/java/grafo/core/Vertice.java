@@ -7,7 +7,7 @@ public class Vertice {
 	public Vertice(String rotulo) throws Exception {
 		boolean isRotuloNullOrBlank = rotulo == null || rotulo != null && "".equals(rotulo.trim());
 		if (isRotuloNullOrBlank) {
-			throw new Exception("N„o È permitida a inclus„o de vÈrtices com rÛtulo em branco.");
+			throw new Exception("N√£o √© permitida a inclus√£o de v√©rtices com r√≥tulo em branco.");
 		}
 		this.rotulo = rotulo;
 	}
